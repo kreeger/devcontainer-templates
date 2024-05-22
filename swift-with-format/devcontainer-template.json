@@ -1,0 +1,34 @@
+{
+    "id": "swift-with-format",
+    "version": "1.0.0",
+    "name": "Swift with swift-format",
+    "description": "Use and develop Swift applications. Includes swift-format.",
+    "documentationURL": "https://github.com/kreeger/devcontainer-templates/tree/main/src/swift-with-format",
+    "publisher": "Ben Kreeger",
+    "licenseURL": "https://github.com/kreeger/devcontainer-templates/blob/main/LICENSE",
+    "options": {
+        "swiftVersion": {
+            "type": "string",
+            "description": "Swift version:",
+            "proposals": [
+                "5.8",
+                "5.9",
+				"5.10"
+            ],
+            "default": "5.10"
+        },
+        "swiftFormatVersion": {
+            "type": "string",
+            "description": "swift-format version:",
+            "proposals": [
+                "508.0.1",
+                "509.0.0",
+				"510.1.0"
+            ],
+            "default": "510.1.0"
+        }
+    },
+    "platforms": [
+        "Swift"
+    ]
+}
